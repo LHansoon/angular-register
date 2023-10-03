@@ -21,7 +21,7 @@ describe('AppComponent', () => {
         expect(app.user).toEqual(null);
     });
 
-    it('should render title', () => {
+    it('should not render \'Profile\'', () => {
         const fixture = TestBed.createComponent(AppComponent);
         fixture.detectChanges();
         const compiled = fixture.nativeElement as HTMLElement;
