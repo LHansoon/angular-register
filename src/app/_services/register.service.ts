@@ -28,7 +28,6 @@ export class RegisterService {
         //name, password, email, bio
         return this.http.get<any>(`${configuration.registrationApiUrl}`, {})
             .pipe(map(result => {
-                let user: User;
                 if (result.success == true) {
                     let user = {
                         name: name,
@@ -38,6 +37,8 @@ export class RegisterService {
                     }
                     localStorage.setItem('user', JSON.stringify(user));
                     this.userSubject.next(user);
+                } else {
+                    alert("Server returned error: registration not success")
                 }
 
                 return result;
