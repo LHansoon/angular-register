@@ -38,9 +38,9 @@ export class RegisterComponent implements OnInit {
                 complete(): void {
                 },
                 next: () => {
-                    this.router.navigate(['../profile'], {relativeTo: this.route});
+                    this.router.navigate([''], {relativeTo: this.route});
                 },
-                error: error => {
+                error: () => {
                 }
             });
     }
