@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Design
+
+The design contains two pages, register and profile. 
+
+User will need to enter the name, pw, email, bio to register and redirect to the profile page. user entered information will be sent to the mock server.
+
+The profile page will contain the retrieved information from the URL configured in the configuration.ts.
+
+
+## Note
+
+Credit to https://jasonwatmore.com/post/2022/11/29/angular-14-user-registration-and-login-example-tutorial
+
+I have to be honest here that I did a lot of research and I've never been on Angular project before. 
+
+Instead of copy and paste the entire project, I decide to start a new one and implement all the components that I personally could understand, all the parts that I feel overwhelmed were not included because I couldn't event explain what's going on there.
+
+Sorry I've tried to write some unit test, but it's a little too far for me right now
+
+I apologize for the commit history, I did notice that there is a requirement on it, but I was learning while coding, so I couldn't realize nor decide where I should put the commit, it's always a bit of here and a bit of there.
+
+overall it's a fun ride, having it running is a success for me. At the end of the day, Thanks for the opportunity.
