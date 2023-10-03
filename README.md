@@ -18,10 +18,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
@@ -40,12 +36,12 @@ The profile page will contain the retrieved information from the URL configured 
 
 Credit to https://jasonwatmore.com/post/2022/11/29/angular-14-user-registration-and-login-example-tutorial
 
-I have to be honest here that I did a lot of research and I've never been on Angular project before. 
+I have to be honest here that I did a lot of research, and I've never been on Angular project before. 
 
 Instead of copy and paste the entire project, I decide to start a new one and implement all the components that I personally could understand, all the parts that I feel overwhelmed were not included because I couldn't event explain what's going on there.
 
-Sorry I've tried to write some unit test, but it's a little too far for me right now
+Sorry I've tried to write some unit tests, but it's a little too far for me right now, I need more time on it.
 
 I apologize for the commit history, I did notice that there is a requirement on it, but I was learning while coding, so I couldn't realize nor decide where I should put the commit, it's always a bit of here and a bit of there.
 
-overall it's a fun ride, having it running is a success for me. At the end of the day, Thanks for the opportunity.
+Overall it's a fun ride, having it running is already a success for me. At the end of the day, Thanks for the opportunity.
