@@ -38,10 +38,4 @@ Credit to https://jasonwatmore.com/post/2022/11/29/angular-14-user-registration-
 
 I have to be honest here that I did a lot of research, and I've never been on Angular project before. 
 
-Instead of copy and paste the entire project, I decide to start a new one and implement all the components that I personally could understand, all the parts that I feel overwhelmed were not included because I couldn't event explain what's going on there.
-
-Sorry I've tried to write some unit tests, but it's a little too far for me right now, I need more time on it.
-
-I apologize for the commit history, I did notice that there is a requirement on it, but I was learning while coding, so I couldn't realize nor decide where I should put the commit, it's always a bit of here and a bit of there.
-
-Overall it's a fun ride, having it running is already a success for me. At the end of the day, Thanks for the opportunity.
+Instead of copy and paste the entire project, I decide to start a new one and implement all the components that I could understand, all the parts that I feel overwhelmed were not included because I couldn't event explain what's going on there.
